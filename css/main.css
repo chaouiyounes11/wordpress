@@ -146,8 +146,35 @@ input:placeholder-shown {
   color: black;
 }
 
+.col-md-4 {
+  margin-bottom: 1.5rem;
+}
+
+.left-card  {
+  margin-left: 8rem;
+}
+
+.container-fluid aside{
+  border: 1px lightgrey solid;
+  margin-bottom: 1.5rem;
+margin-left: 1rem;
+padding-bottom: 20em;
+}
+
+.container-fluid aside h3 {
+  text-align: center;
+}
+
 .btn-outline-primary {
   margin-left: 1.5%;
+  text-align: center;
+}
+
+.btn-primary {
+  justify-content: center;
+display: flex;
+width: 42%;
+margin: auto;
 }
 
 footer {
