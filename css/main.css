@@ -96,7 +96,6 @@ textarea {
    ========================================================================== */
 img{
   width: 100%;
-  height: 100%;
 }
 
 header .back-img {
@@ -107,16 +106,16 @@ header .back-img {
   background-repeat: repeat;
   background-attachment: fixed;
   color: white;
-  text-shadow: 2px 2px 2px black;
+  text-shadow: 2px 2px 2px grey;
   display: flex;
   justify-content: center;
   align-items: center;
-  font-size: 17px;
+  font-size: 20px;
 }
 
 h1 {
   text-align: center;
-  width: 50%;
+  width: 70%;
 }
 
 .card-img-top {
@@ -127,6 +126,9 @@ h1 {
   margin-bottom: 5%;
 }
 
+#formulaire h2 {
+    padding-top: 1em;
+}
 #formulaire h2, h2 {
   text-align: center;
   margin: 3% 0%;
@@ -138,7 +140,8 @@ section input {
 
 
 #formulaire #message  {
-  padding: 15% 10%;
+  padding: 10% 0%;
+  max-width: 67%;
 }
 
 input:placeholder-shown {
@@ -146,28 +149,125 @@ input:placeholder-shown {
   color: black;
 }
 
-.col-md-4 {
-  margin-bottom: 1.5rem;
+.lesArticles h2 {
+  width: 100%;
 }
 
-.left-card  {
-  margin-left: 5rem;
+.lesArticles {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  padding-bottom: 5%;
+  border-bottom: .2px solid #0275D8;
+
 }
 
-.container-fluid aside{
-  border: 1px lightgrey solid;
-  margin-bottom: 1.5rem;
-margin-left: 1rem;
-padding-bottom: 20em;
+.lesArticles article {
+  width: 80%;
+  display: flex;
+margin: auto;
+justify-content: space-around;
+  align-content: center;
+}
+.lesArticles figure {
+  width: 50%;
+  padding: 0px 30px;
+  margin: 4px;
+  border: .3px solid lightgrey;
+  height: 530px;
+  border-radius: 12px;
+  box-shadow: 3px 3px 3px black;
+  display: flex;
+flex-direction: column;
+justify-content: space-around;
+justify-items: center;
+align-items: center;
+position: relative;
 }
 
+figure figcaption {
+  font-size: 20px;
+  font-weight: bold;
+  color: #0975D8;
+  letter-spacing: 3px;
+}
+
+figure p {
+  text-align: center;
+  font-size: 12px;
+  color: grey;
+}
+
+figure .overlay {
+  width: 100%;
+  height: 10%;
+  display: flex;
+  justify-content: space-between;
+  position: absolute;
+  bottom: -10.5%;
+}
+
+.overlay p {
+  width: 32%;
+  opacity: 0;
+  font-size: 13px;
+}
+
+.lesArticles figure:hover .overlay p {
+  opacity: 1;
+  transition: 1s;
+}
+#iPhone {
+  display: flex;
+}
+
+.lesArticles aside {
+  border: .3px solid lightgrey;
+  padding:0em 2em;
+  margin-bottom: 1em;
+  margin-right: 1em;
+}
+aside h3 {
+  text-align: center;
+  padding-top: 5rem;
+}
+
+aside ol {
+  margin-top: 5rem;
+  list-style-type: none;
+  text-align: center;
+  padding: 0px;
+
+}
+
+#plusMobile {
+  padding: 0px;
+  margin-top: 2rem;
+}
+
+#plusMobile a {
+  text-align: center;
+  border: 1px solid #0975D8;
+  padding: 8px 30px;
+  border-radius: 10px 10px;
+}
+
+#plusMobile a:hover {
+  background-color: #0975D8;
+  text-decoration: none;
+  color: white;
+}
+aside ol li {
+  padding-bottom: 1rem;
+}
 .container-fluid aside h3 {
   text-align: center;
+  padding-top: 2rem;
 }
 
 .btn-outline-primary {
-  margin-left: 1.5%;
-  text-align: center;
+  width: 13%;
+margin-left: 28%;
 }
 
 .btn-primary {
