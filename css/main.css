@@ -122,6 +122,11 @@ textarea {
    #formulaire h2 {
        padding-top: 1em;
    }
+
+   #select {
+     width: 80%;
+     margin: 1rem 0rem;
+   }
    #formulaire h2, h2 {
      text-align: center;
      margin: 3% 0%;
@@ -164,8 +169,9 @@ textarea {
      flex-wrap: wrap;
    }
    .lesArticles figure {
-     width: 100%;
+     width: 90%;
      padding: 0px 30px;
+     margin: 0px;
      margin-bottom: 2rem;
      border: .3px solid lightgrey;
      height: 630px;
@@ -202,9 +208,9 @@ textarea {
    }
 
    .overlay p {
-     width: 32%;
+     width: 80%;
      opacity: 0;
-     font-size: 13px;
+     font-size: 11px;
    }
 
    .lesArticles figure:hover .overlay p {
@@ -308,208 +314,55 @@ margin-bottom: 3%;
      font-size: 30px;
    }
 
+
+
 @media (min-width: 768px) {
 
-
-
-.card-img-top {
-  margin-top: 2em;
-}
-
-#formulaire {
-  margin-bottom: 5%;
-}
-
-#formulaire h2 {
-    padding-top: 1em;
-}
-#formulaire h2, h2 {
-  text-align: center;
-  margin: 3% 0%;
-}
-section input {
-  margin-bottom: 1rem;
-  margin-top: 1rem;
-}
-
-
-#formulaire #message  {
-  padding: 10% 0%;
-  max-width: 67%;
-}
-
-input:placeholder-shown {
-  border: 2px solid #0275D8;
-  color: black;
-}
-
-.lesArticles h2 {
-  width: 100%;
-}
-
-.lesArticles {
-  display: flex;
-  justify-content: space-around;
-  flex-wrap: wrap;
-  padding-bottom: 5%;
-  border-bottom: .2px solid #0275D8;
-
+#select {
+  width: 65%;
 }
 
 .lesArticles article {
   width: 80%;
-  display: flex;
-margin: auto;
-justify-content: space-around;
-  align-content: center;
 }
-.lesArticles figure {
-  width: 50%;
-  padding: 0px 30px;
-  margin: 4px;
-  border: .3px solid lightgrey;
-  height: 530px;
-  border-radius: 12px;
-  box-shadow: 3px 3px 3px black;
-  display: flex;
-flex-direction: column;
-justify-content: space-around;
-justify-items: center;
-align-items: center;
-position: relative;
+.lesArticles article figure {
+  width: 80%;
+  margin-bottom: 1.9rem;
 }
 
-figure figcaption {
-  font-size: 20px;
-  font-weight: bold;
-  color: #0975D8;
-  letter-spacing: 3px;
-}
-
-figure p {
-  text-align: center;
-  font-size: 12px;
-  color: grey;
-}
-
-figure .overlay {
-  width: 100%;
-  height: 10%;
-  display: flex;
-  justify-content: space-between;
-  position: absolute;
-  bottom: -10.5%;
-}
 
 .overlay p {
-  width: 32%;
-  opacity: 0;
-  font-size: 13px;
+  font-size: 15px;
 }
-
-.lesArticles figure:hover .overlay p {
-  opacity: 1;
-  transition: 1s;
-}
-#iPhone {
-  display: flex;
-}
-
-.lesArticles aside {
-  border: .3px solid lightgrey;
-  padding:0em 2em;
-  margin-bottom: 1em;
-  margin-right: 1em;
-}
-aside h3 {
-  text-align: center;
-  padding-top: 5rem;
-}
-
-aside ol {
-  margin-top: 5rem;
-  list-style-type: none;
-  text-align: center;
-  padding: 0px;
 
 }
 
-#plusMobile {
-  padding: 0px;
-  margin-top: 2rem;
-}
+@media (min-width: 1030px) {
 
-#plusMobile a {
-  text-align: center;
-  border: 1px solid #0975D8;
-  padding: 8px 30px;
-  border-radius: 10px 10px;
-}
+  #select {
+    display: none;
+  }
 
-#plusMobile a:hover {
-  background-color: #0975D8;
-  text-decoration: none;
-  color: white;
-}
-aside ol li {
-  padding-bottom: 1rem;
-}
-.container-fluid aside h3 {
-  text-align: center;
-  padding-top: 2rem;
-}
+  .lesArticles h2 {
+    margin: 1.5rem;
+  }
 
-.btn-outline-primary {
-  width: 13%;
-margin-left: 28%;
-}
+  .lesArticles article  {
+    flex-wrap: wrap;
+  }
 
-.btn-primary {
-  justify-content: center;
-display: flex;
-width: 42%;
-margin: auto;
-}
+  .lesArticles article figure {
+    margin: 0rem 0rem 1.9rem 0rem;
+    width: 48%;
+  }
 
-footer {
-  display: flex;
-  justify-content: space-around;
-  padding-bottom: 4%;
-  padding-top: 4%;
-  border-top: 2px solid #0275D8;
-  transition: 1s;
-}
-
-footer a {
-  display: flex;
-flex-direction: column;
-height: 93px;
-justify-content: space-between;
-align-items: center;
-}
-
-footer:hover {
-  background-color: #0275D8;
-  transition: 1s;
-  text-decoration: none;
-}
-
-footer:hover a {
-  text-decoration: none;
-}
-footer:hover p {
-  color: white;
-}
-
-footer:hover .fa {
-  color: white;
-}
-
-footer .fa {
-  font-size: 30px;
-}
-
-
+  .lesArticles aside {
+    display: block;
+    border: .3px solid lightgrey;
+    padding:0em 2em;
+    margin-bottom: 1em;
+    margin-right: 1em;
+  }
 
 }
 
