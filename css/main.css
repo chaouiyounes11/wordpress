@@ -198,7 +198,7 @@ textarea {
    }
 
    figure .overlay {
-     width: 100%;
+     width: 80%;
      height: 10%;
      display: flex;
      justify-content: space-between;
@@ -208,14 +208,10 @@ textarea {
 
    .overlay p {
      width: 80%;
-     opacity: 0;
+     opacity: 1;
      font-size: 11px;
    }
 
-   .lesArticles figure:hover .overlay p {
-     opacity: 1;
-     transition: 1s;
-   }
    #iPhone {
      display: flex;
    }
@@ -340,6 +336,16 @@ margin-bottom: 3%;
 
   #select {
     display: none;
+  }
+
+  .overlay p {
+    width: 80%;
+    opacity: 0;
+  }
+
+  .lesArticles figure:hover .overlay p {
+    opacity: 1;
+    transition: 1s;
   }
 
   .lesArticles h2 {
