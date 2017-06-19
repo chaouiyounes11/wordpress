@@ -114,6 +114,10 @@ textarea {
      font-size: 20px;
    }
 
+   .dorpdown-toggle {
+     color: black;
+   }
+
    h1 {
      text-align: center;
      width: 70%;
@@ -271,6 +275,22 @@ margin-bottom: 3%;
    margin: auto;
    }
 
+   /*-----------------------------------
+   -------------------------------------
+   ------- DEBUT PAGE ARTICLE.HTML MOBILE
+   -------------------------------------
+   ------------------------------------*/
+
+.nav-tabs {
+  display: flex;
+  justify-content: space-around;
+}
+
+   /*-----------------------------------
+   -------------------------------------
+   -------FIN PAGE ARTICLE.HTML MOBILE-
+   -------------------------------------
+   ------------------------------------*/
    footer {
      display: flex;
      justify-content: space-around;
@@ -332,6 +352,15 @@ margin-bottom: 3%;
 
 }
 
+@media (min-width: 992px) {
+
+  .navbar-nav .dropdownMenu {
+    padding: 8px;
+
+  }
+
+}
+
 @media (min-width: 1030px) {
 
   #select {
@@ -342,6 +371,8 @@ margin-bottom: 3%;
     width: 80%;
     opacity: 0;
   }
+
+
 
   .lesArticles figure:hover .overlay p {
     opacity: 1;
