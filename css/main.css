@@ -180,7 +180,6 @@ textarea {
      display: flex;
    flex-direction: column;
    justify-content: space-around;
-   justify-items: center;
    align-items: center;
    position: relative;
    }
@@ -237,19 +236,19 @@ display: none;
 
    }
 
-   #plusMobile {
+   .plusMobile {
      padding: 0px;
      margin-top: 2rem;
    }
 
-   #plusMobile a {
+   .plusMobile a {
      text-align: center;
      border: 1px solid #0975D8;
      padding: 8px 30px;
      border-radius: 10px 10px;
    }
 
-   #plusMobile a:hover {
+   .plusMobile a:hover {
      background-color: #0975D8;
      text-decoration: none;
      color: white;
@@ -326,8 +325,8 @@ margin-bottom: 3%;
   width: 80%;
 }
 .lesArticles article figure {
-  width: 80%;
   margin-bottom: 1.9rem;
+  width: 80%;
 }
 
 
