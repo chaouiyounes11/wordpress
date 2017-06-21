@@ -45,20 +45,26 @@
                 <a class="nav-link" href="#">Contact</a>
               </li>
             </ul>
-            <div id="ejs_heure"></div>
             <form class="form-inline my-2 my-lg-0">
               <input class="form-control mr-sm-2" type="text" placeholder="Search">
               <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
             </form>
           </div>
         </nav>
+        <div id="time">
+
+        <p id="ejs_heure"></p>
+        <p id="mychrono"></p>
+
+        </div>
 
         <div class="back-img">
 <h1>THE UNPLUGGED BLOG, LE BLOG DES BLOGGEURS PAR UN BLOGGEUR POUR LES BLOGGEURS</h1>
         </div>
 
 
-      </header>
+      </header id="time">
+
 
       <section class="lesArticles">
 
@@ -84,7 +90,8 @@
 
         <figure>
           <figcaption>iMac</figcaption>
-  <img src="img/imac.png" alt="Card image cap">
+  <img src="img/imac.png" alt="Un iMac" onmouseover="imgHover(this)" onmouseout="imgHover(this)" class="image">
+  <p style="display:none">iMac</p>
   <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
   <a href="article.html">En savoir plus</a>
   <div class="overlay">
@@ -183,7 +190,7 @@
   <input type="text" name="first name" value="" placeholder="prenom" class=" col-xs-5 col-md-8">
   <input type="text" name="mail" value="" placeholder="email" class="col-xs-5 col-md-8">
   <input type="text" name="message" value="" placeholder="message" id="message" class="col-md-12">
-  <button type="button" class="btn btn-outline-primary">Envoyer</button>
+  <button type="button" class="btn btn-outline-primary" id="btn">Envoyer</button>
   </div>
 </section>
 

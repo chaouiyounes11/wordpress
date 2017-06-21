@@ -111,3 +111,26 @@ function HeureCheckEJS()
 	}
 
 window.onload = HeureCheckEJS;
+
+
+var element = document.getElementById('btn');
+
+element.onclick = function () {
+	confirm('Êtes-vous sûr ?');
+};
+
+
+
+                  var seconde=0;
+                  function chrono()
+                  {
+                    document.getElementById("mychrono").innerHTML="Connecté depuis " +seconde+" secondes";
+                    seconde++;
+                  }
+                  setInterval(chrono, 1000);
+
+	var lesImages = document.getElementsByTagName(image);
+
+	for (i = 0; i < lesImages.length; i++) {
+		lesImages[i].onmouseover = "p";
+	}

@@ -356,7 +356,6 @@ margin-bottom: 3%;
 
   .navbar-nav .dropdownMenu {
     padding: 8px;
-
   }
 
 }
@@ -373,9 +372,21 @@ margin-bottom: 3%;
   }
 
   #ejs_heure {
-    margin-right: 27%;
-    padding: 8px;
+    text-align: center;
     font-weight: bold;
+    padding: 8px;
+
+  }
+
+  #mychrono {
+padding: 8px;
+    font-weight: bold;
+    color: navy;
+  }
+
+  #time {
+  display: flex;
+  justify-content: space-around;
   }
 
 
@@ -411,11 +422,14 @@ margin-bottom: 3%;
   -------------------------------------
   ------------------------------------*/
 
-.lesArticles2 {
-  display: flex;
-  justify-content: flex-end;
+.lesArticles2 figure {
+width: 40%;
+  height: 1300px;
 }
 
+.lesArticles2 figure p {
+padding: 2rem 0rem;
+}
   /*-----------------------------------
   -------------------------------------
   -------FIN PAGE ARTICLE.HTML DESKTOP-
