@@ -201,6 +201,14 @@ textarea {
      color: grey;
    }
 
+   #div1, #div2, #div3, #div4 {
+     font-size: 70px;
+     text-shadow: 2px 2px 2px black;
+     letter-spacing: 5px;
+     color: white;
+     position: absolute;
+   }
+
    figure .overlay {
      width: 80%;
      height: 10%;
@@ -429,6 +437,27 @@ width: 40%;
 
 .lesArticles2 figure p {
 padding: 2rem 0rem;
+}
+
+.tab-content p, .tab-content h3 {
+  margin: 0px;
+}
+
+.tab-content  #home {
+  background-color: red;
+  height: 50px;
+}
+
+.tab-content #menu1 {
+  background-color: blue;
+  height: 50px;
+
+}
+
+.tab-content #menu2 {
+  background-color: green;
+  height: 50px;
+
 }
   /*-----------------------------------
   -------------------------------------

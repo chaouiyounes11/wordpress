@@ -1,3 +1,5 @@
+//AFFICHAGE DATE ET HEURE
+
 function HeureCheckEJS()
 
 	{
@@ -112,6 +114,23 @@ function HeureCheckEJS()
 
 window.onload = HeureCheckEJS;
 
+//AFFICHER LE ALT AUX IMAGES
+
+var mesimages = document.getElementsByTagName("img");
+
+for (var i = 0; i < mesimages.length; i++) {
+
+  mesimages[i].addEventListener ("mouseover", function() {
+    var alt = this.alt;
+    div1.textContent = alt;
+    div2.textContent = alt;
+    div3.textContent = alt;
+		div4.textContent = alt;
+  });
+}
+
+
+//BOUTON CONFIRMATION
 
 var element = document.getElementById('btn');
 
@@ -120,6 +139,7 @@ element.onclick = function () {
 };
 
 
+//CHRONOMETRE SECONDE
 
                   var seconde=0;
                   function chrono()
@@ -128,9 +148,3 @@ element.onclick = function () {
                     seconde++;
                   }
                   setInterval(chrono, 1000);
-
-	var lesImages = document.getElementsByTagName(image);
-
-	for (i = 0; i < lesImages.length; i++) {
-		lesImages[i].onmouseover = "p";
-	}
