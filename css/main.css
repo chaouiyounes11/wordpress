@@ -114,6 +114,18 @@ textarea {
      font-size: 20px;
    }
 
+   .navbar {
+     position: fixed;
+     z-index: 1;
+     width: 100%;
+     background-color: lightgrey;
+   }
+
+#time {
+  padding-top: 15%;
+  font-size: 10px;
+}
+
    .dorpdown-toggle {
      color: black;
    }
@@ -345,6 +357,12 @@ margin-bottom: 3%;
   width: 65%;
 }
 
+
+#time {
+  padding-top: 10%;
+  font-size: 15px;
+}
+
 .lesArticles article {
   width: 80%;
 }
@@ -395,6 +413,8 @@ padding: 8px;
   #time {
   display: flex;
   justify-content: space-around;
+  padding-top: 5%;
+  font-size: 20px;
   }
 
 
